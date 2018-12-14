@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="2.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SWDemoToLearn2.Interfaces\SWDemoToLearn2.Interfaces.csproj">
+      <Name>SWDemoToLearn2.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SWDemoToLearn2.Models\SWDemoToLearn2.Models.csproj">
+      <Name>SWDemoToLearn2.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SWDemoToLearn2.Domain\SWDemoToLearn2.Domain.csproj">
+      <Name>SWDemoToLearn2.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SWDemoToLearn2.Infrastructure\SWDemoToLearn2.Infrastructure.csproj">
+      <Name>SWDemoToLearn2.Infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+      <HintPath>C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.dependencyinjection.abstractions\2.1.1\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

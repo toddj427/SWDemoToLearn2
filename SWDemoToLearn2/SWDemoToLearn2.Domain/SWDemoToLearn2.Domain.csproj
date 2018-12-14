@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SWDemoToLearn2.Interfaces\SWDemoToLearn2.Interfaces.csproj">
+      <Name>SWDemoToLearn2.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SWDemoToLearn2.Models\SWDemoToLearn2.Models.csproj">
+      <Name>SWDemoToLearn2.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+
+</Project>
